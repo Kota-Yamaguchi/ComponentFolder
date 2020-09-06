@@ -1,0 +1,39 @@
+body{
+  background-color: #333631;
+}
+
+.meessage-wrapper{
+  width: 1000px;
+  height: 1100px;
+  background-color: white;
+  margin: 50px auto;
+  padding: 15px 50px;
+}
+
+h1{
+  padding-bottom: 15px;
+  border-bottom: 1px solid black;
+}
+
+h2{
+  margin: 30px 0px;
+}
+
+.message-false{
+
+}
+
+img{
+  width: 700px;
+  border: 3px solid black;
+}
+
+@media (max-width:670px){
+  .meessage-wrapper{
+    width: auto;
+    height: auto;
+  }
+  .messege-title{
+    width: auto;
+  }
+}
